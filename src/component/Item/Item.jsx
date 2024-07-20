@@ -7,12 +7,12 @@ function Item(props) {
             <img src={props.image} alt="image" />
             <p>{props.name}</p>
             <div className="item-prices">
-                <div className="item-prices-new">
-                    {props.new_price}
+                <div className="item-price-new">
+                    rs{props.new_price}
                 </div>
-            </div>
-            <div className="item-price-old">
-                {props.old_price}
+                <div className="item-price-old">
+                    rs{props.old_price}
+                </div>
             </div>
         </div>
     )
