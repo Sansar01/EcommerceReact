@@ -4,7 +4,7 @@ import '../Item/Item.css'
 function Item(props) {
     return (
         <div className="item">
-            <img src={props.image} alt="image" />
+            <img src={props.image} alt="item" />
             <p>{props.name}</p>
             <div className="item-prices">
                 <div className="item-price-new">
