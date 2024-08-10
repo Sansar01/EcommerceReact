@@ -6,7 +6,7 @@ import Item from '../Item/Item'
 function Popular() {
     return (
         <div className="popular">
-            <h1>Popular In Wome</h1>
+            <h1>Popular In Women</h1>
             <hr />
             <div className="popular-item">
                 {

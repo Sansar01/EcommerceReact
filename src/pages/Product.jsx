@@ -5,10 +5,11 @@ import Breadcrum from '../component/Breadcrum/Breadcrum';
 import ProductDisplay from '../component/ProductDisplay/ProductDisplay';
 
 function Product() {
-  const {all_product} = useContext(ShopContext)
-  const {productId} = useParams(); 
+  const {all_products} = useContext(ShopContext)
+  const {productid} = useParams(); 
 
-  const product = all_product.find((e)=>e.id === Number(productId))
+  const product = all_products.find((e)=>e.id === Number(productid))
+  
   return (
     <>
       <Breadcrum product={product}/>
