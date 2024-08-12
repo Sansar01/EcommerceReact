@@ -36,6 +36,28 @@ function ProductDisplay(props) {
                     ${product.new_price}
                 </div>
             </div>
+            <div className="productDisplay-right-description">
+                A lightweight,usually knitted ,pullover shirt ,close-fitting and a round neckline and short sleeves,worn as an undershirt or outer garment 
+            </div>
+            <div className="productDisplay-right-size">
+                <h1>Select Size</h1>
+                <div className="productDisplay-right-size">
+                    <div>S</div>
+                    <div>M</div>
+                    <div>L</div>
+                    <div>XL</div>
+                    <div>XXL</div>
+                </div>
+            </div>
+           <button>Add To Cart</button>
+           <p className="productDisplay-right-category">
+            <span>Category :</span>
+            Women, T-shirt, Crop Top
+           </p>
+           <p className="productDisplay-right-category">
+            <span>Tags :</span>
+            Modern, Latest
+           </p>
         </div>
     </div>
   )
