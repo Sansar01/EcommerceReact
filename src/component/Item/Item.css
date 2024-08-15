@@ -41,3 +41,24 @@
     transform: scale(1.05);
     transition: 0.6s;
 }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .item {
+        max-width: 200px;
+        margin: 0 5px;
+    }
+    .item-price-new, .item-price-old {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .item {
+        max-width: 150px;
+        margin: 0 5px;
+    }
+    .item-price-new, .item-price-old {
+        font-size: 14px;
+    }
+}
